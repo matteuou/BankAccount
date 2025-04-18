@@ -1,105 +1,79 @@
-# Bank Account Management System
+# 💳 Bank Account Management System
 
-Este é um simples sistema de gerenciamento de contas bancárias, onde você pode criar contas, fazer depósitos, saques, verificar saldos e transferir entre contas.
+Um simples e funcional sistema de gerenciamento de contas bancárias desenvolvido em **Java**, permitindo ao usuário realizar operações como criação de contas, depósitos, saques, transferências e consultas de saldo, tudo via terminal.
 
-## Funcionalidades
+---
 
-- **Criar Conta:** Cria uma nova conta bancária.
-- **Depositar:** Realiza depósitos em uma conta bancária.
-- **Sacar:** Realiza saques de uma conta bancária.
-- **Verificar Saldo:** Exibe o saldo de uma conta bancária.
-- **Transferir:** Realiza transferências entre contas bancárias.
+## ✨ Funcionalidades
 
-## Tecnologias Utilizadas
+✅ Criar uma nova conta bancária  
+💰 Depositar dinheiro em uma conta existente  
+💸 Sacar dinheiro de uma conta  
+🔁 Transferir valores entre contas  
+📊 Verificar o saldo atual da conta
 
-- **Java**: Linguagem de programação utilizada para desenvolver o sistema.
-- **HashMap**: Utilizado para armazenar as contas bancárias e seus saldos de forma simples.
+---
 
-## Instruções de Instalação
+## 🛠️ Tecnologias Utilizadas
 
-1. Clone o repositório para a sua máquina local:
+- **Java** – Linguagem principal do projeto
+- **HashMap** – Estrutura utilizada para armazenar contas de forma simples e eficiente
+- **Terminal CLI** – Interface em linha de comando para interação com o usuário
 
-   ```bash
-   git clone https://github.com/SEU_USUARIO/Bank-Account-Management-System.git
-Navegue até o diretório do projeto:
+---
 
-bash
-Copiar
-Editar
-cd Bank-Account-Management-System
-Compile e execute o programa:
+## 🚀 Como Executar
 
-Caso esteja utilizando o terminal para compilar e rodar o projeto, use os seguintes comandos:
+### 📦 Pré-requisitos
+- Ter o **Java JDK** instalado em sua máquina
 
-bash
-Copiar
-Editar
-javac app/Main.java
-java app.Main
-Isso irá iniciar o sistema de gerenciamento de contas bancárias.
+### 📥 Passo a Passo
 
-Como Usar
-Criar uma conta:
+1. **Clone o repositório:**
+   git clone https://github.com/SEU_USUARIO/bank-account-management-system.git
 
-Escolha a opção "1" no menu e forneça o número da conta e o nome do proprietário.
 
-Depositar:
 
-Escolha a opção "2" no menu e forneça o número da conta e o valor a ser depositado.
+2. **Acesse o diretório do projeto:**
+   cd bank-account-management-system
 
-Sacar:
 
-Escolha a opção "3" no menu e forneça o número da conta e o valor a ser sacado.
 
-Verificar Saldo:
+3. **Compile o projeto:**
+   javac app/Main.java
 
-Escolha a opção "4" no menu e forneça o número da conta para ver o saldo atual.
 
-Transferir:
 
-Escolha a opção "5" no menu, forneça o número da conta de origem, a conta de destino e o valor a ser transferido.
+4. **Execute o sistema:**
+   java app.Main
 
-Sair:
 
-Escolha a opção "6" para sair do sistema.
+5. Siga as instruções exibidas no terminal para navegar pelas funcionalidades.
 
-Contribuindo
-Se você deseja contribuir para este projeto, sinta-se à vontade para enviar pull requests ou abrir issues. Para mais detalhes, consulte a documentação oficial do GitHub sobre como contribuir.
+---
 
-Licença
-Este projeto está licenciado sob a MIT License.
+## 🧪 Exemplo de Uso
 
-markdown
-Copiar
-Editar
+[1] Criar Conta
+[2] Depositar
+[3] Sacar
+[4] Verificar Saldo
+[5] Transferir
+[6] Sair
 
-### Explicação do conteúdo:
+Escolha uma opção: 2
+Digite o número da conta: 1234
+Digite o valor do depósito: 500.0
+Depósito de R$500.0 realizado com sucesso na conta 1234!
 
-1. **Título e descrição do projeto**:  
-   O título do seu projeto é a primeira coisa que aparece, seguido por uma breve descrição. Aqui, explicamos o que o sistema faz de forma simples.
 
-2. **Funcionalidades**:  
-   Uma lista das principais funcionalidades do sistema, explicando o que cada opção do menu faz.
+## 🙋‍♂️ Contribuições
 
-3. **Tecnologias Utilizadas**:  
-   A tecnologia principal utilizada no projeto (neste caso, Java) e as bibliotecas (como `HashMap`).
+Contribuições são bem-vindas!  
+Se você encontrar bugs, tiver ideias ou quiser melhorar o projeto, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
 
-4. **Instruções de Instalação**:  
-   Passos para configurar e rodar o projeto. Inclui como clonar o repositório e os comandos para compilar e rodar o código.
+---
 
-5. **Como Usar**:  
-   Explicação simples de como interagir com o sistema. Isso ajuda quem for utilizar o código a entender o funcionamento das opções.
 
-6. **Contribuindo**:  
-   Caso outras pessoas queiram contribuir para o projeto, um convite para que elas façam isso, junto com o procedimento.
 
-7. **Licença**:  
-   Informações sobre a licença do projeto. Neste exemplo, estou usando a **MIT License**, mas você pode mudar conforme a licença do seu projeto.
-
-### Como criar o `README.md`:
-
-1. Crie um arquivo chamado `README.md` na raiz do seu diretório de projeto.
-2. Copie e cole o conteúdo acima.
-3. Modifique as informações específicas, como o nome do repositório, detalhes sobre o projeto, e links.
-
-Esse `README.md` fornece uma visão geral bem estruturada do projeto, o que facilita para qualquer pe
+---
